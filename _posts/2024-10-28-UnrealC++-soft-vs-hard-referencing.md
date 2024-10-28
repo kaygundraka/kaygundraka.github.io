@@ -2,7 +2,7 @@
 title: UnrealC++ - Soft vs Hard Referencing
 description: UnrealC++에서 레퍼런스를 선언/사용하는 방식을 설명합니다.
 date: 2024-10-28 18:45:00 +09:00
-categories: [Unreal, C++]
+categories: [Unreal, C++, softreferencing, hardreferencing]
 tags: [C++, Unreal]
 pin: true
 math: true

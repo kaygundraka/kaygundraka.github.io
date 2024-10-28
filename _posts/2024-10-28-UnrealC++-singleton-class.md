@@ -3,7 +3,7 @@ title: UnrealC++ - Singleton Class
 description: UnrealC++에서 싱글톤 클래스 사용법을 학습합니다
 date: 2024-10-28 18:50:00 +09:00
 categories: [Unreal, C++]
-tags: [C++, Unreal]
+tags: [C++, Unreal, singleton]
 pin: true
 math: true
 mermaid: true
