@@ -1,7 +1,7 @@
 ---
 title: UnrealC++ - Load Assets And Add Component
 description: UnrealC++에서 어셋을 로딩하고 컴포넌트를 추가합니다.
-date: 2024-10-28 19:10:00 +09:00
+date: 2024-10-28 19:03:00 +09:00
 categories: [Unreal, C++]
 tags: [C++, Unreal, Assets, Component]
 pin: true

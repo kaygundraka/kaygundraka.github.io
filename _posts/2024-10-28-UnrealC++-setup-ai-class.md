@@ -1,7 +1,7 @@
 ---
 title: UnrealC++ - Setup AI Class
 description: UnrealC++에서 AI Class를 설정합합니다.
-date: 2024-10-28 19:15:00 +09:00
+date: 2024-10-28 19:01:00 +09:00
 categories: [Unreal, C++]
 tags: [C++, Unreal, AI]
 pin: true
