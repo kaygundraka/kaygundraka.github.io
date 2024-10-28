@@ -10,9 +10,7 @@ math: true
 mermaid: true
 ---
 
-# Static Constructor
-
-### 타입 생성자라고도 불린다
+## 타입 생성자라고도 불린다
 
 ```csharp
 class Point

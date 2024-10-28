@@ -10,9 +10,7 @@ math: true
 mermaid: true
 ---
 
-# ValueType Constructor
-
-### ValueType = struct
+## ValueType = struct
 
 - ReferenceType과의 차이점
     - class
@@ -32,7 +30,7 @@ mermaid: true
         - > call instance void SPoint::.ctor(int32, int32)
         - > initobj SPoint
 
-### 주의 사항
+## 주의 사항
 
 1. 값 타입 생성자는 필드 초기화를 할 수가 없다
     - 인자 없는 생성자를 만들 수 없기 때문

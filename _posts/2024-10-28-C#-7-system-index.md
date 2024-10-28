@@ -10,8 +10,6 @@ math: true
 mermaid: true
 ---
 
-# System.Index
-
 ## 배열 역순 접근
 
 ```csharp

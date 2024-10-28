@@ -10,8 +10,6 @@ math: true
 mermaid: true
 ---
 
-# Optional Parameter
-
 ## 상속 관계에서의 주의점
 
 ```csharp

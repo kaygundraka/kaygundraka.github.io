@@ -10,8 +10,6 @@ math: true
 mermaid: true
 ---
 
-# Github 블로그 만들기
-
 ## 과정
 
 1. GitHub Repo 만들기

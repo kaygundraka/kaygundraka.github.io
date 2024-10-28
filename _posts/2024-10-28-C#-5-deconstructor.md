@@ -10,8 +10,6 @@ math: true
 mermaid: true
 ---
 
-# Deconstructor
-
 ```csharp
 public class Test
 {

@@ -10,9 +10,7 @@ math: true
 mermaid: true
 ---
 
-# ReferenceType Constructor
-
-### ReferenceType = class
+## ReferenceType = class
 
 - 객체가 생성되면
   - 메모리가 먼저 초기화

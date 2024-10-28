@@ -10,8 +10,6 @@ math: true
 mermaid: true
 ---
 
-# System.Range
-
 ## 배열 범위 접근
 
 ```csharp
