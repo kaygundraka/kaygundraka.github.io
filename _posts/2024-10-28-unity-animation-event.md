@@ -13,7 +13,9 @@ Unity를 Animator를 사용하다보면 애니메이션의 특정 지점에서 �
 
 ## 예시 코드
 ---
+
 - 시작과 종료에 핸들러 등록 예시코드
+
 ```csharp
 private void Start()
 {
@@ -41,12 +43,12 @@ private void Start()
     }
 }
 
-private void AnimationStartHandler()
+private void AnimationStartHandler(string animationClipName)
 {
-
+    // 내용
 }
 
-private void AnimationEndHandler()
+private void AnimationEndHandler(string animationClipName)
 {
     
 }
