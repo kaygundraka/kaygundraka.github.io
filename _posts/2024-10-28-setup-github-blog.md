@@ -23,7 +23,7 @@ mermaid: true
   - Type : public으로 설정
 
 ## Git Clone 후 .gitignore 추가
-```gitignore
+```
 # Bundler cache
 .bundle
 vendor
