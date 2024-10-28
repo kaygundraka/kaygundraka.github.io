@@ -2,7 +2,7 @@
 title: ReferenceType Constructor
 description: ReferenceType Constructor 개념을 정리합니다
 author: kaygundraka
-date: 2024-10-28 10:28:00 +0800
+date: 2024-10-28 10:28:00 +0900
 categories: [Programming, CSharp]
 tags: [C#, CSharp]
 pin: true
