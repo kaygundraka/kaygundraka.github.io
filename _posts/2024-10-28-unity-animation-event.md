@@ -17,40 +17,43 @@ Unity를 Animator를 사용하다보면 애니메이션의 특정 지점에서 �
 - 시작과 종료에 핸들러 등록 예시코드
 
 ```csharp
-private void Start()
+public class AnimationHandlerComponent : Monobehavior
 {
-    var animator = this.GetComponent<Animator>();
-
-    var rac = animator.runtimeAnimatorController;
-
-    for (int i = 0; i < rac.animationClips.Length; i++)
+    private void Start()
     {
-        AnimationClip clip = rac.animationClips[i];
+        var animator = this.GetComponent<Animator>();
 
-        clip.AddEvent(new AnimationEvent
-        {
-            time = 0,
-            functionName = "AnimationStartHandler",
-            stringParameter = clip.name
-        });
+        var rac = animator.runtimeAnimatorController;
 
-        clip.AddEvent(new AnimationEvent
+        for (int i = 0; i < rac.animationClips.Length; i++)
         {
-            time = clip.length,
-            functionName = "AnimationEndHandler",
-            stringParameter = clip.name
-        });
+            AnimationClip clip = rac.animationClips[i];
+
+            clip.AddEvent(new AnimationEvent
+            {
+                time = 0,
+                functionName = "AnimationStartHandler",
+                stringParameter = clip.name
+            });
+
+            clip.AddEvent(new AnimationEvent
+            {
+                time = clip.length,
+                functionName = "AnimationEndHandler",
+                stringParameter = clip.name
+            });
+        }
     }
-}
 
-private void AnimationStartHandler(string animationClipName)
-{
-    // 내용
-}
+    private void AnimationStartHandler(string animationClipName)
+    {
+        // 내용
+    }
 
-private void AnimationEndHandler(string animationClipName)
-{
-    
+    private void AnimationEndHandler(string animationClipName)
+    {
+        // 내용
+    }
 }
 ```
 
