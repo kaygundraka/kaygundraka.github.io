@@ -1,8 +1,7 @@
 ---
 title: Github Blog 만들기
 description: Github Blog + jekyll + chirpy 테마 적용하기
-author: kaygundraka
-date: 2024-10-28 16:55:00 +0900
+date: 2024-10-28 16:55:00 +09:00
 categories: [Github, Blog]
 tags: [Github, Blog, jekyll, chirpy]
 pin: true

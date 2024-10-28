@@ -1,8 +1,7 @@
 ---
 title: Optional Parameter
 description: Optional Parameter의 개념을 정리합니다
-author: kaygundraka
-date: 2024-10-28 14:28:00 +0900
+date: 2024-10-28 14:28:00 +09:00
 categories: [Programming, CSharp]
 tags: [C#, CSharp]
 pin: true
