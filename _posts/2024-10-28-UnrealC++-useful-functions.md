@@ -1,5 +1,5 @@
 ---
-title: UnrealC++ - Usefule Functions
+title: UnrealC++ - Useful Functions
 description: UnrealC++의 편의 기능 정리
 date: 2024-10-28 19:09:00 +09:00
 categories: [Unreal, C++]
