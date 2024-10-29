@@ -1,7 +1,7 @@
 ---
 title: 로컬 SSH 키 확인
 description: 맥과 윈도우에서 로컬 SSH 키 확인하기
-date: 2024-10-28 16:55:00 +09:00
+date: 2024-10-28 22:26:00 +09:00
 categories: [Github, Environment]
 tags: [Github, ssh, depolykey]
 pin: true
@@ -15,7 +15,7 @@ mermaid: true
 
 ### Windows
 
-1. Windows PoserShell에 명령어 입력
+1. Windows PowerShell에 명령어 입력
 2. > cd ~/.ssh
 3. 키가 존재한다면 notepad로 public 키 파일을 연다
 4. > notepad sshkey.pub
