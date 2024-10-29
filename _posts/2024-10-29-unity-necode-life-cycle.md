@@ -55,6 +55,8 @@ public override void OnDestroy()
   - Awake, OnNetworkSpawn, Start (enable될때 호출됨)
 
 ## NetworkBehaviour 관련 스폰
+---
+
 |Method|Scope|Use case|Context|
 |-|-|-|-|
 |OnNetworkPreSpawn|NetworkObject|Pre-Spawn initialization|Client and Server|
