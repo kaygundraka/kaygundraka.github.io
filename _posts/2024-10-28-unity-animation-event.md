@@ -2,7 +2,7 @@
 title: Unity Animation Clip 등록하기
 description: 스크립트에서 Unity Animation Event를 등록하여 사용한다
 date: 2024-10-28 22:30:00 +09:00
-categories: [Unity, AnimationEvent, AnimationHandler]
+categories: [Unity, Animation]
 tags: [unity, animationevent, animationhandler]
 pin: true
 math: true
